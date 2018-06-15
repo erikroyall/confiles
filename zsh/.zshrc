@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=/home/erik/.oh-my-zsh
 
 ZSH_THEME="afowler"
@@ -24,6 +24,9 @@ export MANPATH="/usr/local/man:$MANPATH"
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-PATH="$PATH:/home/erik/prog/flutter/bin"
+export ANDROID_HOME="$HOME/Android/Sdk"
+
+PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
+PATH="$PATH:$HOME/prog/flutter/bin"
 export PATH="$PATH:$HOME/.npm-packages/bin"
 
