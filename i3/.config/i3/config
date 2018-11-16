@@ -30,6 +30,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec alacritty
+bindsym $mod+Shift+Return exec google-chrome-unstable
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -47,7 +48,7 @@ bindsym $mod+p exec "rofi -show window"
 bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus up
-bindsym $mod+ntilde focus right
+bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
